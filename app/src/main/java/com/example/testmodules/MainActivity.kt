@@ -8,6 +8,7 @@ import com.example.network.NetworkConstants.PAYMENTS_CONSTANTS_2
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         setContentView(R.layout.activity_main)
         startPaymentsActivity()
     }
